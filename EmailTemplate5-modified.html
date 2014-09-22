@@ -799,9 +799,10 @@ body.outlook p {
 /*edited by CN*/
 .greenBg, .redBg{
 	display:block;
+	/*width:280px;*/
 	background:#39b54a;
 	border-bottom:#2e913b solid 10px;
-	padding:36px 43px 25px;
+	padding:/*36px 0 25px*/ 0;
 	text-align:center;
 }
 	.greenBg tr td, .redBg tr td{
@@ -907,15 +908,24 @@ body.outlook p {
                         <tr>
                           <td class="right-text-pad">
 							
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="greenBg">
+                            <table border="0" cellspacing="0" cellpadding="0" class="greenBg">
                               <tr>
                                 <td>
                                 	<table width="100%" border="0" cellspacing="0" cellpadding="0">
                                       <tr>
-                                        <td><img src="images/tickMark.jpg" width="195" height="150" alt="" /></td>
+                                        <td>&nbsp;</td>
                                       </tr>
                                       <tr>
-                                        <td><p>Yes, I want to Go!</p></td>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                        	<img src="images/tickMark.jpg" width="195" height="150" alt="" style="margin:0 auto; width:195px; float:none; display:inline;" />
+                                            <p>Yes, I want to Go!</p>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>&nbsp;</td>
                                       </tr>
                                     </table>
 
@@ -929,25 +939,28 @@ body.outlook p {
                       </table>
 
                     </td>
+                    
                     <td class="wrapper last" style="padding-bottom:15px;">
 
                       <table class="six columns">
                         <tr>
                           <td class="last left-text-pad">
                             
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="redBg">
+                            <table border="0" cellspacing="0" cellpadding="0" class="redBg">
                               <tr>
-                                <td>
-                                	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-                                      <tr>
-                                        <td><img src="images/crossImg.jpg" width="195" height="150" alt="" /></td>
-                                      </tr>
-                                      <tr>
-                                        <td><p>No, I cant Make It</p></td>
-                                      </tr>
-                                    </table>
-
+                                <td style="text-align:center;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center;">&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center;">
+                                	<img src="images/crossImg.jpg" width="195" height="150" alt="" style="margin:0 auto; width:195px; float:none; display:inline;" />
+                                    <p>No, I cant Make It</p>
                                 </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center;">&nbsp;</td>
                               </tr>
                             </table>
                             
